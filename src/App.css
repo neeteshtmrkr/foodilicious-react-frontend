@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 .App {
   text-align: center;
 }
@@ -27,7 +29,44 @@
 .App-link {
   color: #61dafb;
 }
+.logo{
+  font-family: 'Lemon', cursive;
+  font-size: larger;
+  font-weight: 500;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0,0.8);
+}
+.footer{
+  background-color: #bdcad9;
+background-image: linear-gradient(315deg, #bdcad9 0%, #e1dada 74%);
+}
+.search{
+ margin-left:10%;
+ margin-right:10%;
+ padding-left: 50px;
+ align-items: center;
+ position: relative;
+}
+.items{
+float: right;
+position: absolute;
+}
+.navedited{
+  background-color: #1b2845;
+background-image: linear-gradient(315deg, #1b2845 0%, #274060 74%);
 
+}
+.loginbutton:hover{
+  background-color: #00bfb2;
+background-image: linear-gradient(315deg, #00bfb2 0%, #028090 74%);
+}
+.cart{
+  background-color: #537895;
+background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+}
+.searchbutton{
+  background-color: #378b29;
+background-image: linear-gradient(315deg, #378b29 0%, #74d680 74%);
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +74,70 @@
   to {
     transform: rotate(360deg);
   }
+}
+/*For the Navbar*/
+.navbar{
+  position: absolute;
+}
+.carousel{
+  position: relative;
+}
+.search{ 
+position: absolute;
+z-index: 3; 
+width: 450px;
+height: 43px;
+margin-left: 33%;
+border-radius: 21.5px;
+background: #fff;
+opacity: 0.50;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.16);
+border: none;
+}
+.logo{
+  position: absolute;
+  z-index: 3;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+.trans-navbar{
+width: 1340px;
+height: 74px;
+border-radius: 22px;
+background: #000;
+opacity: 0.8;
+position: absolute;
+z-index: 3;
+margin-top: 50px;
+margin-left: 3.5px;
+}
+.caption-left{
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  font-size: 90px;
+}
+.caption-right{
+  font-family: 'Raleway', sans-serif;
+  text-align: right;
+  font-size: 90px;
+  color: #000;
+  margin-bottom: 20px;
+  text-shadow: 0px 4px 9px rgba(0, 0, 0, 0.16);
+}
+/*Home Component*/
+.popular-dishes{
+font-family: 'Raleway', sans-serif;
+width: 1335px;
+height: 333px;
+border-radius: 16px;
+background: #fff;
+box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+font-weight: lighter;
+}
+.items{
+  width: 244px;
+height: 290px;
+border-radius: 11px;
+background: #fff;
+box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
